@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/" . "Temp/")
+ ("c:/Users/Ken/AppData/Roaming/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Users/Ken/AppData/Roaming/.emacs.d/"
+ "c:/Temp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "a.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/Ken/AppData/Roaming/.emacs.d/" (21705 2732 0 0) "theme/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "#init.el#" "../" "./")
+
+ ("c:/Temp/" (21704 64437 0 0) "zenefit.css" "marketing-icons.png" "gainefit.png" "a.html~" "a.html" "../" "./")
+
+ ("c:/Users/Ken/AppData/Roaming/" (21704 52567 0 0) "SogouMobileTool/" "Mozilla/" "Microsoft/" "Media Center Programs/" "Macromedia/" "Intel Corporation/" "Identities/" "BingDict/" "Baidu/" "Atom/" "ATI/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/emacs-24.4/" (21704 52357 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/emacs-24.4/bin/" (21704 52305 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.4.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
