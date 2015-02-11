@@ -6,8 +6,7 @@
  )  
 
 ;;add custom theme path
-(add-to-list 'custom-theme-load-path "~/.emacs.d/theme/emacs-color-theme-solarized")
-(load-theme 'solarized t)
+(load-theme 'wombat t)
 
 ;;enable IDO
 (require 'ido)
