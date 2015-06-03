@@ -1,2 +1,2 @@
 # kemacs
-kemacs
+kemacs - Ken's emacs configs.
