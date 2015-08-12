@@ -1,3 +1,9 @@
+" awesome color scheme
+colorscheme desert
+
+"access the system clipboard
+set clipboard=unnamed
+
 " enable syntax highlighting
 syntax enable
 
@@ -24,3 +30,13 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+set backspace=2 " make backspace work like most other apps
+
+" set the backup directory
+set backupdir=d:/vimtmp,.
+set directory=d:/vimtmp,.
+
+"hide menu and toolbar
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
