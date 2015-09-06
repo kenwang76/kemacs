@@ -1,9 +1,5 @@
-;;add pakcages
-(when (>= emacs-major-version 24)  
-  (require 'package)  
-  (package-initialize)  
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)  
- )  
+;; company-mode
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;;add custom theme path
 (load-theme 'wombat t)
@@ -12,10 +8,16 @@
 (require 'ido)
 (ido-mode t)
 
+;; make ido display choices vertically
+(setq-default ido-separator "\n")
+
+;; display any item that contains the chars you typed
+(setq-default ido-enable-flex-matching t)
+
 ;;use spaces instead of tabs
 (setq-default indent-tabs-mode nil)
 
 ;;tab width: 4
-(setq tab-width 4)
+(setq-default tab-width 4)
 
 
