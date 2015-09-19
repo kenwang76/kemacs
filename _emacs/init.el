@@ -17,6 +17,12 @@
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
+;; company-mode
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; theme
+(load-theme 'wombat t)
+
 ;;; Column-number
 ;; Show column number in mode-line.
 (column-number-mode t)
