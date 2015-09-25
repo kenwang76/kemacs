@@ -34,8 +34,8 @@ let python_highlight_all = 1
 set backspace=2 " make backspace work like most other apps
 
 " set the backup directory
-set backupdir=d:/vimtmp,.
-set directory=d:/vimtmp,.
+set backupdir=~/vimtmp,.
+set directory=~/vimtmp,.
 
 "hide menu and toolbar
 set guioptions-=m  "remove menu bar
