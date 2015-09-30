@@ -31,6 +31,9 @@
 ;; Show column number in mode-line.
 (column-number-mode t)
 
+;;;line number
+(add-hook 'prog-mode-hook 'linum-mode)
+
 ;;; No-tool-menu-bar
 (menu-bar-mode 0)
 (tool-bar-mode 0)
