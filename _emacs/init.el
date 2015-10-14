@@ -74,9 +74,6 @@
 ;;tab width: 2
 (setq-default tab-width 2)
 
-;; company-mode
-(add-hook 'after-init-hook 'global-company-mode)
-
 ;; theme
 (load-theme 'wombat t)
 
