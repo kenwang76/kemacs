@@ -1,0 +1,5 @@
+The foundamental limitation of knowledge:
+    https://medium.com/starts-with-a-bang/throwback-thursday-the-fundamental-limits-of-knowledge-200b10b86c8
+
+Hardware Reverse Engineering:
+    http://security.cs.rpi.edu/courses/hwre-spring2014/
